@@ -10,7 +10,7 @@ app.use(cors());
 
 
 app.all('/testweb', testWeb);
-http.createServer(app).listen(4210);
+http.createServer(app).listen(80);
 
 function testWeb(req, res) {
     res.send('test');
